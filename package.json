@@ -1,11 +1,11 @@
 {
   "name": "phaser",
-  "version": "3.55.2",
-  "release": "Ichika",
+  "version": "3.60.0-iso-beta.1",
+  "release": "north",
   "description": "A fast, free and fun HTML5 Game Framework for Desktop and Mobile web browsers.",
-  "author": "Richard Davey <rich@photonstorm.com> (http://www.photonstorm.com)",
+  "author": "Richard Davey <rich@photonstorm.com> (http://www.photonstorm.com) Adam Azmil <adam.azmil01@gmail.com>",
   "homepage": "http://phaser.io",
-  "bugs": "https://github.com/photonstorm/phaser/issues",
+  "bugs": "https://github.com/adamazmil/phaser/issues",
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
   "main": "./src/phaser.js",
@@ -13,7 +13,7 @@
   "browser": "./dist/phaser.js",
   "repository": {
     "type": "git",
-    "url": "https://photonstorm@github.com/photonstorm/phaser.git"
+    "url": "https://github.com/adamazmil/phaser.git"
   },
   "scripts": {
     "beta": "npm publish --tag beta",
@@ -30,7 +30,7 @@
     "plugin.spine": "webpack --config plugins/spine/webpack.config.js",
     "plugin.spine.dist": "webpack --config plugins/spine/webpack.auto.dist.config.js",
     "plugin.spine.watch": "webpack --config plugins/spine/webpack.auto.config.js --watch --display-modules",
-    "plugin.spine.dev": "webpack --config plugins/spine/webpack.auto.config.js",
+    "plugin.spine.dev": "webpanpmck --config plugins/spine/webpack.auto.config.js",
     "plugin.spine.runtimes": "cd plugins/spine && tsc -p tsconfig.both.json && tsc -p tsconfig.canvas.json && tsc -p tsconfig.webgl.json",
     "plugin.spine.canvas.dist": "webpack --config plugins/spine/webpack.canvas.dist.config.js",
     "plugin.spine.canvas.watch": "webpack --config plugins/spine/webpack.canvas.config.js --watch --display-modules",
